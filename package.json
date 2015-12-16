@@ -2,7 +2,7 @@
   "name": "@f/map-gen",
   "description": "Map for generator.",
   "repository": "git://github.com/micro-js/map-gen.git",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "license": "MIT",
   "main": "lib/index.js",
   "scripts": {
