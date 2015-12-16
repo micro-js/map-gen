@@ -10,12 +10,12 @@ Map for generator.
 
 ## Installation
 
-    $ npm install @micro-js/map-gen
+    $ npm install @f/map-gen
 
 ## Usage
 
 ```js
-var map = require('@micro-js/map-gen')
+var map = require('@f/map-gen')
 
 Array.from(map(addOne, function * () {
   yield 1
@@ -47,5 +47,5 @@ MIT
 [git-url]: https://github.com/micro-js/map-gen
 [standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat
 [standard-url]: https://github.com/feross/standard
-[npm-image]: https://img.shields.io/npm/v/@micro-js/map-gen.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/@micro-js/map-gen
+[npm-image]: https://img.shields.io/npm/v/@f/map-gen.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/@f/map-gen

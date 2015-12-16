@@ -1,5 +1,5 @@
 {
-  "name": "@micro-js/map-gen",
+  "name": "@f/map-gen",
   "description": "Map for generator.",
   "repository": "git://github.com/micro-js/map-gen.git",
   "version": "1.4.1",
@@ -9,11 +9,11 @@
     "postversion": "git push && git push --tags && npm publish --access=public"
   },
   "dependencies": {
-    "@micro-js/is-generator-object": "^1.1.0",
-    "@micro-js/slice": "^1.0.0"
+    "@f/is-generator-object": "^1.1.0",
+    "@f/slice": "^1.0.0"
   },
   "devDependencies": {
-    "@micro-js/identity": "^1.0.0",
+    "@f/identity": "^1.0.0",
     "standard": "^5.4.1",
     "tape": "^4.2.2"
   }
