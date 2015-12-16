@@ -4,7 +4,7 @@
 
 var map = require('..')
 var test = require('tape')
-var identity = require('@micro-js/identity')
+var identity = require('@f/identity')
 
 /**
  * Tests
