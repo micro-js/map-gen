@@ -9,8 +9,10 @@
     "postversion": "git push && git push --tags && npm publish --access=public"
   },
   "dependencies": {
-    "@f/is-generator-object": "^1.1.0",
-    "@f/slice": "^1.0.0"
+    "@f/is-function": "^1.1.1",
+    "@f/is-iterator": "^1.0.0",
+    "@f/slice": "^1.0.0",
+    "@f/to-generator": "^1.0.1"
   },
   "devDependencies": {
     "@f/identity": "^1.0.0",

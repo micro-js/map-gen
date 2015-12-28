@@ -20,7 +20,6 @@ test('should handle no yield', (t) => {
   function * justReturn () {
     return 'foo'
   }
-
 })
 
 test('should handle only yield', (t) => {
@@ -50,7 +49,7 @@ test('should yield input values', (t) => {
 
   t.end()
 
-  function * yieldIn(input) {
+  function * yieldIn (input) {
     var res = yield input
     res = yield res
     return res
@@ -73,7 +72,7 @@ test('should yield mapped values', (t) => {
     return v + 1
   }
 
-  function * yieldIn(input) {
+  function * yieldIn (input) {
     var res = yield input
     res = yield res
     return res
