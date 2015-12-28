@@ -120,3 +120,30 @@ test('should catch error in mapF', (t) => {
     }
   }
 })
+
+
+test('should map yielded throws', (t) => {
+
+  var g = map(add, error)
+  var it = g()
+  var next = it.next()
+  t.equal(next.value, 2)
+  next = it.throw()
+  t.equal(next.value, 3)
+  next = it.next()
+  t.equal(next.value, 4)
+  t.end()
+
+  function * error () {
+    try {
+      yield 1
+    } catch (e) {
+      yield 2
+    }
+    yield 3
+  }
+
+  function add (v) {
+    return v + 1
+  }
+})
